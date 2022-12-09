@@ -5,6 +5,8 @@ Siamese/CIFARData.npz
 Siamese/CIFARDataShort.npz
 Siamese/CIFARDataTest.npz
 Siamese/CIFARValData.npz
+CIFAR*
+Siamese.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
