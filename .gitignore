@@ -1,5 +1,10 @@
 # CIFAR10 data
 cifar-10-batches-py/
+Siamese/data/
+Siamese/CIFARData.npz
+Siamese/CIFARDataShort.npz
+Siamese/CIFARDataTest.npz
+Siamese/CIFARValData.npz
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
