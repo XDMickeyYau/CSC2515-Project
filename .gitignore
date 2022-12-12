@@ -7,6 +7,9 @@ Siamese/CIFARDataTest.npz
 Siamese/CIFARValData.npz
 CIFAR*
 Siamese.py
+load_data.py
+kmeans_benchmark.py
+kmeans_performance_eval.ipynb
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
