@@ -11,6 +11,7 @@ Siamese/imgs
 load_data.py
 kmeans_benchmark.py
 kmeans_performance_eval.ipynb
+models
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
