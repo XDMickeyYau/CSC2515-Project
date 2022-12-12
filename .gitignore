@@ -7,6 +7,7 @@ Siamese/CIFARDataTest.npz
 Siamese/CIFARValData.npz
 CIFAR*
 Siamese.py
+Siamese/imgs
 load_data.py
 kmeans_benchmark.py
 kmeans_performance_eval.ipynb
