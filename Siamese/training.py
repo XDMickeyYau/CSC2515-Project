@@ -3,7 +3,6 @@ from torch.optim import Adam
 from torch.utils.data.dataloader import DataLoader
 import numpy as np
 
-# from SiameseV3 import CNN
 from Siamese import CNN
 from utils import imshow, triplet_loss
 
@@ -19,7 +18,6 @@ if device.type == "cuda":
 CIFAR10Data = np.load('CIFARData.npz')['arr_0'].reshape(-1, 32, 32, 3)
 CIFAR10DataShort = np.load('CIFARDataShort.npz')['arr_0'].reshape(-1, 32, 32, 3)
 
-# CifarDataset = CIFAR10DsShort(CIFAR10Data, CIFAR10DataShort)
 CifarDataset = CIFAR10Ds(CIFAR10Data)
 dataloader = DataLoader(CifarDataset, batch_size=128, shuffle=False)
 net = CNN()
